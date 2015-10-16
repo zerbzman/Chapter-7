@@ -10,11 +10,13 @@ Here is the Algorithm.
 For any given A and B:  
 Start with result = 0.  
 
-* While B > 0:
-	* if B is ODD:
-		* Result = Result + A
-	* A = A * 2
-	* B = B // 2 (Integer divide)  
+```
+While B > 0:
+	if B is ODD:
+		Result = Result + A
+	A = A * 2
+	B = B // 2 (Integer divide)
+```
 
 At the end, Result should equal A * B.  
 
@@ -24,4 +26,3 @@ Post your code with the following naming convention:
 firstname.lastname.RPMA.asm
 
 You do not need to call the irvine library routines for input and output. It is sufficient for this exercise to have the results stored in memory.  
-
